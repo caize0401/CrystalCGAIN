@@ -51,7 +51,8 @@ By correctly configuring the paths, you ensure seamless integration of **Zeo++**
 
 # 3. Datasets
 You can download the datasets via reference URL in the follow table.
-|Datasets  |Description  |Reference  |
+| Datasets  | Description  | Reference  |
+|---------|--------------------------------------------------------|----------------------------------------------|
 |PCOD  |The goal of this repository is to serve as stable hosting (mirror) for some existing databases of zeolitic structures.  |https://github.com/fxcoudert/zeolite_databases  |
 |IZA  |This database provides structural information on all of the Zeolite Framework Types that have been approved by the Structure Commission of the International Zeolite Association (IZA-SC).  |  [www.iza-structure.org/databases](https://www.iza-structure.org/databases/)|
 
