@@ -48,10 +48,11 @@ After installing the software:
 2. Refer to the examples on the Zeo++ website for details on running the software with sample inputs.
 
 By correctly configuring the paths, you ensure seamless integration of **Zeo++** with the project code.
-# 3. Training and Generation
+# 3. Datasets
+You can download the datasets via reference URL in the follow table.
+
+# 4. Training and Generation
 To train the CrystalCGAIN, you have to exec the following commands.
-|
-safdaf
-adfaf
-ggs
-|
+
+# 5. Acknowledgements
+This work was sponsored by the Key Program of Science and Technology of Yunnan Province (No.202302AB080020, 202102AB080019-3), Key Research Project of Zhejiang Laboratory (No. 2021PE0AC02), Key Project of Shanghai Zhangjiang National Independent Innovation Demonstration Zone(No. ZJ2021-ZD-006). The authors gratefully appreciate the anonymous reviewers for their valuable comments.
