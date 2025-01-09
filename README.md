@@ -60,14 +60,24 @@ You can download the datasets via reference URL in the follow table.
 To train the CrystalCGAIN, you have to exec the following commands.
 ## 4.1 Train Reconstruction
 Description: This section of the files is used to test the reconstruction of existing crystal structures.
-1.Extract the origin_data archive.
-2.Run the main_runner.py file.
-3.The code will automatically execute each part. Once training is complete, it will save the training process and output an image showing the RMSE changes during training.
-4.Open the example folder to check if the output matches the provided example.
+1. Extract the origin_data archive.
+2. Run the main_runner.py file.
+3. The code will automatically execute each part. Once training is complete, it will save the training process and output an image showing the RMSE changes during training.
+4. Open the example folder to check if the output matches the provided example.
 ## 4.2 Train Generation
-
+Description: This section is used to test the model's generation and training process.
+1. Extract the origin_data archive.
+2. Run the main_runner.py file.
+3.The code will automatically run each part and save the training results in two separate folders: gan_model_step_1 and gan_model_step_2.
+4. Once the code has fully run, an image will be output showing the dramatic decrease in void fraction as the training epochs progress.
+5. By opening the example folder, you will find the saved model parameters from both the pre-trained model and the model after incorporating the target property-directed generation module, along with the training process logs.
 ## 4.3 Generate Structure
-
+Description: This section is used to test the generation of new structures.
+1. Extract the origin_data archive.
+2. Run gen_fake_batch_cif_input_output.py file.
+   - Open the "fake_data" folder in the "example" directory, unzip the two compressed datasets, and use them for testing input-output comparison.
+3. Run gen_fake_calculate_void_fraction.py file.
+   - It will output a porosity distribution graph, which can be compared with the example graph in the "example" folder to see if they have a similar distribution trend.
 ## 4.4 New Structure
 Opening this folder will provide information on the new crystal structures:
 
