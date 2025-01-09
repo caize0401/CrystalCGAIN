@@ -6,6 +6,7 @@ Fig.1 An overview of CrystalCGAIN model.
 This model employs a concise inversion-free representation method and uses a Generative Adversarial Imputation Network (GAIN) to generate new crystal structures. The crystal structures are represented by lattice parameters and fractional atomic coordinates, combined with atomic distance matrices as inputs to the model. By utilizing random missing sampling, the data distribution of crystal structures is explored. Additionally, a soft constraint loss function for target property-oriented generation is designed, enabling the generation of new crystal structures that meet user-defined property expectations.
 # 2. Installation
 Set up a python environment for version 3.9.4 and clone the Github repo.
+## 2.1 pip list
 | Packge               | Version       | Packge                | Version        | Packge                 | Version        |
 |---------------------|-------------|---------------------|-------------|---------------------|-------------|
 | ase                 | 3.22.1     | blinker             | 1.8.2      | BTrees              | 5.1        |
@@ -35,4 +36,16 @@ Set up a python environment for version 3.9.4 and clone the Github repo.
 | ZConfig             | 4.0        | zdaemon             | 5.0        | ZEO                 | 6.0.0      |
 | zipp                | 3.20.2     | ZODB                | 5.8.1      | zodbpickle          | 3.1        |
 | zope.interface      | 6.1        |                     |             |                     |             |
+## 2.2 Software Installation and Path Configuration
+Before running the code, you need to install the **Zeo++** software by following the installation steps provided on its official website: [Zeo++ Official Website](https://www.zeoplusplus.org/about.html).
+
+### Path Configuration
+After installing the software:
+1. Modify the absolute paths in the provided code to match your local setup. These paths include:
+   - The path to the dataset.
+   - The path to the **Zeo++** software.
+
+2. Refer to the examples on the Zeo++ website for details on running the software with sample inputs.
+
+By correctly configuring the paths, you ensure seamless integration of **Zeo++** with the project code.
 
