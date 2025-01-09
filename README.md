@@ -58,6 +58,23 @@ You can download the datasets via reference URL in the follow table.
 
 # 4. Training and Generation
 To train the CrystalCGAIN, you have to exec the following commands.
+## 4.1 Train Reconstruction
+Description: This section of the files is used to test the reconstruction of existing crystal structures.
+1.Extract the origin_data archive.
+2.Run the main_runner.py file.
+3.The code will automatically execute each part. Once training is complete, it will save the training process and output an image showing the RMSE changes during training.
+4.Open the example folder to check if the output matches the provided example.
+## 4.2 Train Generation
+
+## 4.3 Generate Structure
+
+## 4.4 New Structure
+Opening this folder will provide information on the new crystal structures:
+
+   - CIF files of 33 stable structures and 83 metastable structures selected by M3GNet.
+   - Excel sheets containing the calculated parameters related to voids.
+   - Data statistics images.
+   - Zeo++ example run code (requires modification of absolute paths).
 
 # 5. Acknowledgements
 This work was sponsored by the Key Program of Science and Technology of Yunnan Province (No.202302AB080020, 202102AB080019-3), Key Research Project of Zhejiang Laboratory (No. 2021PE0AC02), Key Project of Shanghai Zhangjiang National Independent Innovation Demonstration Zone(No. ZJ2021-ZD-006). The authors gratefully appreciate the anonymous reviewers for their valuable comments.
