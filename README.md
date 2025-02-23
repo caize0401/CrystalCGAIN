@@ -76,6 +76,7 @@ Description: This section is used to test the generation of new structures.
 1. Extract the origin_data archive.
 2. Run gen_fake_batch_cif_input_output.py file.
    - Open the "fake_data" folder in the "example" directory, unzip the two compressed datasets, and use them for testing input-output comparison.
+   - These two files occupy a large amount of storage space and cannot be uploaded to GitHub. If necessary, you can contact the author for assistance.(Contact email: caize@shu.edu.cn)
 3. Run gen_fake_calculate_void_fraction.py file.
    - It will output a porosity distribution graph, which can be compared with the example graph in the "example" folder to see if they have a similar distribution trend.
 ## 4.4 New Structure
